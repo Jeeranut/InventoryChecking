@@ -413,7 +413,6 @@ public class AuditeeWipActivity extends AppCompatActivity {
     }
 //End insertpart()
 
-    //Start of Clearing text in edittext
     public void clearEtxtAuditeeWipPartNumber()
     {
         etxtAuditeeWipPartNumber.setText("");
@@ -428,9 +427,7 @@ public class AuditeeWipActivity extends AppCompatActivity {
         });
         hideKeyboard();
     }
-    //End of Clearing text in edittext
 
-    //Start of Hide the keyboard
     public void hideKeyboard()
     {
         // Check if no view has focus:
@@ -440,6 +437,5 @@ public class AuditeeWipActivity extends AppCompatActivity {
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
     }
-    //End of Hide the keyboard
 
 }
