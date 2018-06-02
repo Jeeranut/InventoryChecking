@@ -287,7 +287,7 @@ public class AuditeeRmActivity extends AppCompatActivity {
         }
 
     }
-
+    //Start Clear Edittext
     public void clearEtxtAuditeeRmPartNumber()
     {
         etxtAuditeeRmPartNumber.setText("");
@@ -302,7 +302,9 @@ public class AuditeeRmActivity extends AppCompatActivity {
         });
         hideKeyboard();
     }
+    //End of Clear Edittext
 
+    //Start of hide keyboard
     public void hideKeyboard()
     {
         // Check if no view has focus:
@@ -313,7 +315,7 @@ public class AuditeeRmActivity extends AppCompatActivity {
         }
     }
 
-
+    //End of hide keyboard
 
 
 
