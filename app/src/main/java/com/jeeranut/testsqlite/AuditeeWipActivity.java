@@ -438,7 +438,9 @@ public class AuditeeWipActivity extends AppCompatActivity {
         });
         hideKeyboard();
     }
+    //End of Clear Edittext
 
+    //Start of hide keyboard
     public void hideKeyboard()
     {
         // Check if no view has focus:
@@ -448,5 +450,6 @@ public class AuditeeWipActivity extends AppCompatActivity {
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
     }
+    //End of hide keyboard
 
 }
