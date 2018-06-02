@@ -356,16 +356,6 @@ public class AuditeeWipActivity extends AppCompatActivity {
                         listvAuditeeWip.setAdapter(adapter);
 
 
-//                        int i=0;
-//                        int pos=0;
-//                        while(i<c.getCount()){
-//                            c.moveToPosition(i);
-//                            if(partnumber.equals(c.getString(c.getColumnIndexOrThrow("partname")))){
-//                                pos=i;
-//                            }
-//                            i++;
-//                        }
-
                         listvAuditeeWip.setSelection(adapter.getCount()-1);
 
                         etxtAuditeeWipWorkOrder.setFocusable(false);
