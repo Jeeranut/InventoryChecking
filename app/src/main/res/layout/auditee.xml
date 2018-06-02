@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@raw/jch" />
+
+        <Button
+            android:id="@+id/btnAuditeeWip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WIP" />
+
+        <Button
+            android:id="@+id/btnAuditeeRm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM" />
+
+        <Button
+            android:id="@+id/btnAuditeeWipDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete WIP" />
+
+        <Button
+            android:id="@+id/btnAuditeeRmDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete RM" />
+
+        <Button
+            android:id="@+id/btnAuditeeWipEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit WIP Name" />
+
+        <Button
+            android:id="@+id/btnAuditeeRmEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT RM NAME" />
+
+        <Button
+            android:id="@+id/btnAuditeeExport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export" />
+
+        <Button
+            android:id="@+id/btnAuditeeExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+
+</LinearLayout>

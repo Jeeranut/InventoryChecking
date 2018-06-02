@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jeeranut.testsqlite.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@raw/jch" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnAuditee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUDITEE" />
+
+        <Button
+            android:id="@+id/btnAuditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUDITOR" />
+
+        <Button
+            android:id="@+id/btnClearData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Data"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

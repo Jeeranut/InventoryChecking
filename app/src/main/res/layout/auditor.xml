@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@raw/jch" />
+
+
+    <Button
+        android:id="@+id/btnAuditorWip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="WIP" />
+
+        <Button
+            android:id="@+id/btnAuditorRm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM" />
+
+        <Button
+            android:id="@+id/btnAuditorExport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export" />
+
+        <Button
+            android:id="@+id/btnAuditorExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+
+</LinearLayout>
