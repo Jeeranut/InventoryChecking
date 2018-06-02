@@ -423,6 +423,7 @@ public class AuditeeWipActivity extends AppCompatActivity {
     }
 //End insertpart()
 
+    //Start Clear Edittext
     public void clearEtxtAuditeeWipPartNumber()
     {
         etxtAuditeeWipPartNumber.setText("");
